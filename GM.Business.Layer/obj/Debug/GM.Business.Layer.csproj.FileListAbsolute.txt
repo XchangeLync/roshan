@@ -1,0 +1,32 @@
+D:\Roshan\My Projects\GM.Web\GM.Business.Layer\bin\Debug\GM.Business.Layer.dll.config
+D:\Roshan\My Projects\GM.Web\GM.Business.Layer\bin\Debug\GM.Business.Layer.dll
+D:\Roshan\My Projects\GM.Web\GM.Business.Layer\bin\Debug\GM.Business.Layer.pdb
+D:\Roshan\My Projects\GM.Web\GM.Business.Layer\bin\Debug\AutoMapper.dll
+D:\Roshan\My Projects\GM.Web\GM.Business.Layer\bin\Debug\EntityFramework.dll
+D:\Roshan\My Projects\GM.Web\GM.Business.Layer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Roshan\My Projects\GM.Web\GM.Business.Layer\bin\Debug\GM.Business.Entity.dll
+D:\Roshan\My Projects\GM.Web\GM.Business.Layer\bin\Debug\GM.Data.Model.exe
+D:\Roshan\My Projects\GM.Web\GM.Business.Layer\bin\Debug\GM.Business.Entity.pdb
+D:\Roshan\My Projects\GM.Web\GM.Business.Layer\bin\Debug\GM.Data.Model.pdb
+D:\Roshan\My Projects\GM.Web\GM.Business.Layer\bin\Debug\AutoMapper.xml
+D:\Roshan\My Projects\GM.Web\GM.Business.Layer\bin\Debug\EntityFramework.xml
+D:\Roshan\My Projects\GM.Web\GM.Business.Layer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Roshan\My Projects\GM.Web\GM.Business.Layer\obj\Debug\GM.Business.Layer.csprojResolveAssemblyReference.cache
+D:\Roshan\My Projects\GM.Web\GM.Business.Layer\obj\Debug\GM.Business.Layer.dll
+D:\Roshan\My Projects\GM.Web\GM.Business.Layer\obj\Debug\GM.Business.Layer.pdb
+C:\Users\Roshan\Desktop\GloboMart\GM.Business.Layer\bin\Debug\AutoMapper.xml
+C:\Users\Roshan\Desktop\GloboMart\GM.Business.Layer\bin\Debug\GM.Business.Layer.dll.config
+C:\Users\Roshan\Desktop\GloboMart\GM.Business.Layer\bin\Debug\GM.Business.Layer.dll
+C:\Users\Roshan\Desktop\GloboMart\GM.Business.Layer\bin\Debug\GM.Business.Layer.pdb
+C:\Users\Roshan\Desktop\GloboMart\GM.Business.Layer\bin\Debug\AutoMapper.dll
+C:\Users\Roshan\Desktop\GloboMart\GM.Business.Layer\bin\Debug\EntityFramework.dll
+C:\Users\Roshan\Desktop\GloboMart\GM.Business.Layer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Roshan\Desktop\GloboMart\GM.Business.Layer\bin\Debug\GM.Business.Entity.dll
+C:\Users\Roshan\Desktop\GloboMart\GM.Business.Layer\bin\Debug\GM.Data.Model.exe
+C:\Users\Roshan\Desktop\GloboMart\GM.Business.Layer\bin\Debug\GM.Business.Entity.pdb
+C:\Users\Roshan\Desktop\GloboMart\GM.Business.Layer\bin\Debug\GM.Data.Model.pdb
+C:\Users\Roshan\Desktop\GloboMart\GM.Business.Layer\bin\Debug\EntityFramework.xml
+C:\Users\Roshan\Desktop\GloboMart\GM.Business.Layer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Roshan\Desktop\GloboMart\GM.Business.Layer\obj\Debug\GM.Business.Layer.csprojResolveAssemblyReference.cache
+C:\Users\Roshan\Desktop\GloboMart\GM.Business.Layer\obj\Debug\GM.Business.Layer.dll
+C:\Users\Roshan\Desktop\GloboMart\GM.Business.Layer\obj\Debug\GM.Business.Layer.pdb

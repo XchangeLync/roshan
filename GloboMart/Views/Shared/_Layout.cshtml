@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @*<base href="/" />*@
+</head>
+<body>
+    <div class="container-fluid no-gap">
+        <div>
+            @Html.Partial("_Header")
+        </div>
+
+        <div class="row col-md-12 col-sm-12 col-xs-12 no-gap" style="position:absolute">
+            <div class="col-md-12 col-sm-12 col-xs-12 no-gap" style="position:relative;top:40px; padding-left:0px;">
+                @*<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-gap mainContent">
+                    <ng-view></ng-view>
+                </div>*@
+                <div id="body" style="background-color:white; height:100%;width:98%; position:relative">
+                    @RenderBody()
+                </div>
+            </div>
+            <div id="msg" class="hide col-md-offset-2 col-sm-offset-2 col-xs-offset-2 col-md-9 col-sm-9 col-xs-9">
+                <div id="inner-msg" class="alert alert-success">
+                    <span id="msg-text"></span>
+                </div>
+            </div>
+            <input type="hidden" id="tracker" value="0" />
+        </div>
+
+        <div class="footer navbar navbar-default navbar-fixed-bottom">
+            <footer>
+                <table class="col-md-12 col-sm-12 col-xs-12">
+                    <tr>
+                        <td class="text-center">
+                            All Rights Reserved to &copy; Roshan @DateTime.Now.Year
+                        </td>
+                    </tr>
+                </table>
+            </footer>
+        </div>
+    </div>
+    <div id="divMessages"></div>
+    <div class="loader" style="display:none">
+        <img class="loading-image" src="~/images/loader.gif" alt="Loading..." />
+    </div>
+
+    @*@Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/angularJS")
+    @RenderSection("scripts", required: false)
+    <script src="~/Scripts/GM/module.js"></script>
+    <script src="~/Scripts/GM/productController.js"></script>
+    <script src="~/Scripts/GM/service.js"></script>*@
+</body>
+</html>

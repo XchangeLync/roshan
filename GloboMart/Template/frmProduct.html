@@ -1,0 +1,58 @@
+﻿
+    <form class="form-horizontal" role="form" id="frmProductMaster" name="frmProductMaster" ng-controller="productController" novalidate>
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 form-group">
+                <label class="control-label">Product Code</label>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 form-group  pull-left">
+                <input type="text" class="form-control" ng-model="Product.Code" ng-disabled="{{disable}}" />
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 form-group" style="margin-left:10px;">
+                <label class="control-label">Product Type</label>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 form-group  pull-left">
+                <input type="text" class="form-control" ng-model="Product.Type" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 form-group">
+                <label class="control-label">Product Name</label>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 form-group  pull-left">
+                <input type="text" class="form-control" ng-model="Product.Name" />
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 form-group">
+                <label class="control-label">Price</label>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 form-group  pull-left">
+                <input type="text" class="form-control" ng-model="Product.Price" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 form-group">
+                <label class="control-label">Quantity</label>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 form-group  pull-left" ng-class="{'has-error':frmProductMaster.Quantity.$touched && frmProductMaster.Quantity.$invalid}">
+                <input type="number" class="form-control" name="Quantity" ng-model="Product.Quantity" ng-minlength="10" ng-maxlength="10" required />
+                <div class="help-block" ng-messages="frmProductMaster.Quantity.$error" ng-show="frmProductMaster.Quantity.$touched">
+                    <div ng-messages-include="../Validation/number.html"></div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 form-group" style="margin-left:10px;">
+                <label class="control-label">Active</label>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 form-group  pull-left">
+                <input type="checkbox" style="width:20px;height:20px;" ng-model="Product.IsActive" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 form-group  pull-left">
+                <input type="button" value="Cancel" class="btn-sm btn-success" ng-click="cancel()" />
+                <input type="button" ng-value='({{disable}}===true ? "Update" : "Save")' class="btn-sm btn-success" ng-click="save()"
+                       ng-hide="frmProductMaster.$invalid ||
+                frmProductMaster.Code.$dirty && frmProductMaster.Type.$invalid ||
+                frmProductMaster.Name.$dirty && frmProductMaster.Price.$invalid ||
+                frmproductmaster.Quantity.$dirty" />>
+            </div>
+        </div>
+    </form>

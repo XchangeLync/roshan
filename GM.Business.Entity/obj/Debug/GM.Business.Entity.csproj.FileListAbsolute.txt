@@ -1,0 +1,8 @@
+D:\Roshan\My Projects\GM.Web\GM.Business.Entity\bin\Debug\GM.Business.Entity.dll
+D:\Roshan\My Projects\GM.Web\GM.Business.Entity\bin\Debug\GM.Business.Entity.pdb
+D:\Roshan\My Projects\GM.Web\GM.Business.Entity\obj\Debug\GM.Business.Entity.dll
+D:\Roshan\My Projects\GM.Web\GM.Business.Entity\obj\Debug\GM.Business.Entity.pdb
+C:\Users\Roshan\Desktop\GloboMart\GM.Business.Entity\bin\Debug\GM.Business.Entity.dll
+C:\Users\Roshan\Desktop\GloboMart\GM.Business.Entity\bin\Debug\GM.Business.Entity.pdb
+C:\Users\Roshan\Desktop\GloboMart\GM.Business.Entity\obj\Debug\GM.Business.Entity.dll
+C:\Users\Roshan\Desktop\GloboMart\GM.Business.Entity\obj\Debug\GM.Business.Entity.pdb
